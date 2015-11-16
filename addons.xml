@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.sportsnationhdtv" name="SportsNationHD" version="2.2.0" provider-name="SportsNationHDTV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.t0mm0.common" version="1.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">24-7 Streaming of various tv shows or show types</summary>
+    <description lang="en">This is a premium streaming service you will need an account from http://sportsnationhd.tv @SportsMania005 www.facebook.com/sportsnationhdtv</description>
+    <disclaimer lang="en">[COLOR red][B][I]For support please go to http://sportsnationhd.tv/ or @SportsMania005 and www.facebook.com/groups/1700911476809239/[/B][/I][/COLOR]</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="repository.sportsnationhd" name="SportsNationHD" version="0.1.0" provider-name="JingWang">
+    <extension point="xbmc.addon.repository" name="SportsNationHD">
+        <info compressed="false">
+          https://github.com/sportsnationhd/sportsnationhdtv/master/addons.xml
+        </info>
+        <checksum>
+          https://github.com/sportsnationhd/sportsnationhdtv/master/addons.xml.md5
+        </checksum>
+        <datadir zip="true">https://github.com/sportsnationhd/sportsnationhdtv/master/</datadir>
+        <dir>
+          <info compressed="false">http://sportsmaniarepo.byethost13.com/repo/addons.xml</info>
+          <checksum>
+            http://sportsmaniarepo.byethost13.com/repo/addons.xml.md5
+          </checksum>
+          <datadir zip="true">http://sportsmaniarepo.byethost13.com/repo/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>A short summary of this addon</summary>
+        <description>The description can be longer. Using [CR] you can create a newline. The use of other markup is not advised.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+</addons>
