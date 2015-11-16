@@ -15,7 +15,7 @@
     <platform>all</platform>
   </extension>
 </addon>
-<addon id="repository.sportsnationhd" name="SportsNationHD" version="0.1.0" provider-name="JingWang">
+<addon id="repository.sportsnationhd" name="SportsNationHD" version="0.1.1" provider-name="JingWang">
     <extension point="xbmc.addon.repository" name="SportsNationHD">
         <info compressed="false">
           https://github.com/sportsnationhd/sportsnationhdtv/blob/master/addons.xml
